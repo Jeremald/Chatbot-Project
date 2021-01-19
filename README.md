@@ -6,6 +6,8 @@
 3. Install VaderSentiment with the following command: ```pip3 install VaderSentiment```
 4. Make sure that facts.db is in the same directory as main.py, then the program can simply be run with ```python3 main.py``` assuming that directory is work current working directory.
 
+WebCrawler.py is not required for this program to run, its just for if you want to see how I created the database.
+
 ## How it works
 The first part of this project was creating the database. That was done using a webcrawler program that started with one article about a folding smartphone and
 followed links to similar articles. The webcrawler retreived facts about folding smartphones and stored them in the database. The database was trimmed down a
