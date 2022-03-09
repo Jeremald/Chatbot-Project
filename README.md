@@ -4,7 +4,7 @@
 1. Install spacy using the following command: ```pip3 install spacy```
 2. Download the spacy model that I used by running this command: ```python3 -m spacy download en_core_web_sm```
 3. Install VaderSentiment with the following command: ```pip3 install VaderSentiment```
-4. Make sure that facts.db is in the same directory as main.py, then the program can simply be run with ```python3 main.py``` assuming that directory is work current working directory.
+4. Make sure that facts.db is in the same directory as main.py, then the program can simply be run with ```python3 main.py``` assuming that directory is your current working directory.
 
 WebCrawler.py is not required for this program to run, its just for if you want to see how I created the database.
 
